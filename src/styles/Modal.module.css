@@ -1,0 +1,17 @@
+.hidden{
+	top: 20px;
+	display: flex;
+	position: fixed;
+	z-index: 44;
+	background-color: #fff;
+	border: 2px solid #dfdfdf;
+	border-radius: 8px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	padding: 3em 1.5em;
+	transform: translateX(-50%);
+	left: 50%;
+	max-width: 456px;
+}

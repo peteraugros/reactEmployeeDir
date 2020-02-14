@@ -1,0 +1,27 @@
+{
+  "name": "directory",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "deploy": "bash deploy.sh",
+    "postdeploy": "cat src/swAddendum.js >> docs/service-worker.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

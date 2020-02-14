@@ -1,0 +1,23 @@
+label[for="sort"]{
+  color: #4a4a4a;
+  display: block;
+  text-align: center;
+}
+.div{
+  margin-top: 1em;
+}
+select{
+  border: 2px solid #dfdfdf;
+  border-radius: 4px;
+  color: #4a4a4a;
+  transition: border-color .8s;
+}
+select:focus{
+  outline: none;
+  border-color: #4a4a4a;
+}
+@media screen and (min-width: 1024px){
+  .div{
+    margin-top: 0;
+  }
+}
